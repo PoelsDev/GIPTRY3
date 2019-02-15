@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css?family=Bai+Jamjuree');
+
+body
+{
+    background-image: url(images/background2.jpg);
+    background-size: 100%;
+    background-attachment: fixed;
+    font-family: 'Bai Jamjuree';
+}
+
+html
+{
+    overflow-x: none;
+}
+
+ul
+{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+h1
+{
+    font-weight: 300;
+}
+
+footer { 
+    background-color: #ff5100;
+    position: absolute;
+    width: 100%;
+    height: 100px;
+    top: 100%;
+    text-align: center;
+    color: white;
+    left: 0;
+}
+
+.sidenav 
+{
+    height: 100%;
+    color: #ff5100;
+    width: 10%;
+    position: fixed;
+    font-size: 125%;
+    text-align: left;
+    
+}
+
+.sidenav a, .dropdown-btn, .dropdown-container a 
+{
+    font-family: 'Bai Jamjuree';
+    font-size: 100%;
+    color: #ff5100;
+    display: block;
+    border-radius: 28px;
+    border: none;
+    background: none;
+    cursor: pointer;
+    outline: none;
+
+    animation-name: text-focus-in;
+    animation-duration: 0.5s;
+    animation-fill-mode: forwards;
+}
+
+.sidenav a:hover, .dropdown-btn:hover, .dropdown-container a:hover {
+    color: white;
+    text-decoration: none;
+    background-color: #ff5100;
+}
+
+.active {
+    color: #ff5100;
+}
+
+
+.sidenav a, .dropdown-btn, .dropdown-container a {
+    padding: 6px 8px 6px 16px;
+    display: block;
+    text-decoration: none;
+}
+
+.dropdown-container
+{
+    display: none;
+    color: white;
+}
+
+.hero-image
+{
+    width: 100%;
+    height: 100%;
+
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("Images/background2.jpg");
+    background-size: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.hero-image1
+{
+    margin-bottom: 10px;
+}
+
+.hero-image2
+{
+    margin-bottom: 60px;
+}
+
+.hero-text
+{
+    margin-top: 20px;
+    text-align: left;
+    position: relative;
+    left: 20%;
+    color: white;
+    font-size: 100%;
+    width: 70%;
+}

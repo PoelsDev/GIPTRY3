@@ -1,0 +1,218 @@
+@import url('https://fonts.googleapis.com/css?family=Bai+Jamjuree');
+
+body
+{
+    margin: 0%;
+    width: 100%;
+    height: cover;
+    font-family: 'Bai Jamjuree';
+}
+
+ul 
+{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    /*background-color:#ff5100;*/
+    position: sticky;
+    top: 0;
+}
+
+li 
+{
+    float: left;
+}
+
+li a 
+{
+    text-align: center;
+}
+
+footer { 
+  background-color: #ff5100;
+  position: fixed;
+  width: 100%;
+  bottom: 0px;
+  text-align: center;
+  color: white;
+  font-family: 'Bai Jamjuree';
+}
+
+
+.hero-image
+{
+    width: 100%;
+    height: 100%;
+    top: 0;
+
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("Images/background2.jpg");
+    background-size: 100%;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    position: absolute;
+}
+
+.hero-text {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 150%;
+    font-family: 'Bai Jamjuree';
+}
+
+.hero-text button {
+    background-color: #ff5100;
+    color: white;
+    border-radius: 28px;
+    font-size: 100%;
+    font-family: 'Bai Jamjuree';
+    font-weight: lighter;
+    border: none;
+    width: 200px;
+    height: 80px;    
+    outline: none;
+  }
+  
+  .hero-text button:hover 
+  {
+    animation-name: jello-horizontal;
+    animation-duration: 0.5s;
+    animation-fill-mode: forwards;
+  }
+  
+.sidenav {
+    height: 100%;
+    width: 10%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    /*background-color: #ff5100;*/
+    overflow-x: hidden;
+    padding-top: 20px;
+    font-family: 'Bai Jamjuree';
+  }
+  
+  .sidenav a, .dropdown-btn, .dropdown-container a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #ff5100;
+    display: block;
+    border: none;
+    background: none;
+    width:100%;
+    text-align: left;
+    cursor: pointer;
+    outline: none;
+  }
+
+/* On mouse-over */
+.sidenav a:hover, .dropdown-btn:hover, .dropdown-container a:hover {
+  color: white;
+  text-decoration: none;
+}
+
+/* Main content */
+.main {
+  margin-left: 200px; /* Same as the width of the sidenav */
+  font-size: 20px; /* Increased text to enable scrolling */
+  padding: 0px 10px;
+}
+
+/* Add an active class to the active dropdown button */
+.active {
+  background-color: #ff5100;
+  color: white;
+  font-family: 'Bai Jamjuree';
+}
+
+/* Dropdown container (hidden by default). Optional: add a lighter background color and some left padding to change the design of the dropdown content */
+.dropdown-container {
+  display: none;
+  color: white;
+  padding-left: 8px;
+  font-family: 'Bai Jamjuree';
+  animation-name: text-focus-in;
+  animation-duration: 0.5s;
+  animation-fill-mode: forwards;
+}
+
+/* Optional: Style the caret down icon */
+.fa-caret-down {
+  float: right;
+  padding-right: 8px;
+}
+
+/* TAAK 1*/
+
+.taak1-btn { 
+  background-color: #ff5100;
+  color: white;
+  border-radius: 28px;
+  font-size: 100%;
+  font-family: 'Bai Jamjuree';
+  font-weight: lighter;
+  border: none;
+  width: 200px;
+  height: 80px;    
+  outline: none;
+  top: 1%;
+  left: 70%;
+  position: absolute;
+}
+
+.taak1-btn:hover 
+  {
+    animation-name: shadow-drop-2-center;
+    animation-duration: 0.5s;
+    animation-fill-mode: forwards;
+  }
+
+.taak1-text {
+  left: 13%;
+  top: 5%;
+  position: absolute;
+  color: white;
+  font-family: 'Bai Jamjuree';
+  font-size: 1vw;
+  right: 5%;
+}
+
+.taak1 {
+  width: 100%;
+  background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url("Images/background2.jpg");
+  height: 100%;
+  top: 0;
+  background-size: 100%;
+  background-position: center;
+  background-attachment: fixed;
+  background-position: absolute;
+  position: absolute;
+  overflow-y: scroll;
+}
+
+.taak1-image1 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  margin-bottom: 50px;
+}
+
+.taak1-image2 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  margin-bottom: 50px;
+}
+
+.jello-horizontal {
+	-webkit-animation: jello-horizontal 0.9s both;
+	        animation: jello-horizontal 0.9s both;
+}
